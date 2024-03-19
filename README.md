@@ -1,7 +1,27 @@
 # Peoject-1-c_game
 cmake project examples
-
-
+    C_GAME_PROJECT START
+        -git repository 설정
+        -.gitignore 생성
+    - doxygen 세팅
+        - sudo apt install doxygen graphviz
+        - sudo apt install doxygen-gui
+        - sudo apt install qt5
+        - unset GTK_PATH
+    cmake 배포 설정
+    - install 명령어 사용
+    - cpack 설정
+    Tetris 게임설계
+        -signal 60hz로 update함수가 실행되게 make
+        -getch 함수로 실시간 키보드 입력
+        -게임판
+        -블록
+        -블록 회전
+        -블록 이도
+        -블록 떨어짐
+        -블록 삭제
+        -블록 생성
+        -게임 오버
     project start
     Doxyfile 세팅
     README.md 작성
